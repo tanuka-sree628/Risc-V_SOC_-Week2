@@ -89,9 +89,15 @@ setundef -zero
 clean -purge
 rename -enumerate
 write_verilog -noattr VSDBabySoC/src/module/vsdbabysoc_netlist.v
+stat -liberty src/lib/sky130_fd_sc_hd__tt_025C_1v80.lib
+show vsdbabysoc
 ```
 
 ✅ Produces gate-level netlist and synthesis statistics.
+![Chip_statistics](assets/chip_stats.png)
+
+✔ Produces gate-level netlist
+![Yosys_simulation](assets/VSDBabySoC.png)
 
 ## 3️⃣ Gate-Level Simulation (GLS)
 
@@ -110,6 +116,7 @@ gtkwave dump.vcd
 ```
 
 ✅ GLS waveforms line up with RTL — functional equivalence achieved!
+![Yosys_simulation](assets/post_synth.png)
 
 ## 📊 Key Outcomes
 
