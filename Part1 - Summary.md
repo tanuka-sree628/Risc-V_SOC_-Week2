@@ -1,4 +1,4 @@
-## Summary of the fundamentals of VSDBabySoc
+## Summary of the Fundamentals of VSDBabySoc
 
 This work aims to develop a small, open-source System on Chip (SoC) known as BabySoC, with the RVMYTH, which is a RISC-V processor core. 
 The SoC contains two important components — a Phase-Locked Loop (PLL) used for synchronous and accurate clock generation and a 10-bit Digital-to-Analog Converter (DAC) used for digital to analog conversion.
