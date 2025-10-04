@@ -128,4 +128,4 @@ gtkwave dump.vcd
 
 ## 🚀 Conclusion
 
-The VSD BabySoC project provides a hands-on demonstration of a full-chip digital flow using open-source tools. By validating RTL and GLS consistency, the design is ready to move forward into physical design (PnR).
+The VSD BabySoC project provides a hands-on demonstration of a full-chip digital flow using open-source tools. By validating RTL and GLS consistency, the design is ready to move forward into physical design.
