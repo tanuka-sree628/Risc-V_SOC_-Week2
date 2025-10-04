@@ -19,7 +19,7 @@ It includes elements like a CPU, memory, input/output ports, GPU, DSP, and power
 
 ## VSDBabySoC includes three important open-source IP cores:
 
-- RVMYTH (RISC-V Processor): Acts as the core that processes data and instructions.
+- rvmyth (RISC-V Processor): Acts as the core that processes data and instructions.
 It uses register r17 to store data that the DAC will use.
 - Phase-Locked Loop (PLL): Generates a stable clock signal to ensure all components work in sync, which is vital for timing and system stability.
 
@@ -27,7 +27,7 @@ It uses register r17 to store data that the DAC will use.
 
 
 In practice, BabySoC starts by using the PLL to create a synchronized clock signal.
-The RVMYTH processor handles digital data and updates its registers, which are then turned into an analog wave by the DAC. The final output is saved in a file named OUT and can be connected to external analog systems, demonstrating actual digital-to-analog conversion.
+The rvmyth processor handles digital data and updates its registers, which are then turned into an analog wave by the DAC. The final output is saved in a file named OUT and can be connected to external analog systems, demonstrating actual digital-to-analog conversion.
 
 The PLL works by matching the phase and frequency of its output signal to a reference input signal.
 It has three key parts — a Phase Detector, Loop Filter, and Voltage-Controlled Oscillator (VCO). Using on-chip PLLs avoids issues like clock delays, jitter, and frequency mismatches that arise with external clock sources.
