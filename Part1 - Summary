@@ -1,10 +1,11 @@
-##Summary of the fundamentals of VSDBabySoc
+## Summary of the fundamentals of VSDBabySoc
 
-This work aims to develop a small, open-source System on Chip (SoC) known as BabySoC, with the RVMYTH, which is a RISC-V processor core. The SoC contains two important components — a Phase-Locked Loop (PLL) used for synchronous and accurate clock generation and a 10-bit Digital-to-Analog Converter (DAC) used for digital to analog conversion. By doing the above, BabySoC will be able to interface with analog devices like televisions and cell phones to generate audio or video signals. Using Sky130 technology to implement it, this project hopes to be an educational and experimental vehicle to learn digital–analog interfacing.
+This work aims to develop a small, open-source System on Chip (SoC) known as BabySoC, with the RVMYTH, which is a RISC-V processor core. The SoC contains two important components — a Phase-Locked Loop (PLL) used for synchronous and accurate clock generation and a 10-bit Digital-to-Analog Converter (DAC) used for digital to analog conversion.
+By doing the above, BabySoC will be able to interface with analog devices like televisions and cell phones to generate audio or video signals. Using Sky130 technology to implement it, this project hopes to be an educational and experimental vehicle to learn digital–analog interfacing.
 
 System on Chip (SoC) is literally a computer in its entirety fabricated on a single chip. It has elements such as a CPU, memory, I/O ports, GPU, DSP, and power management units. SoCs are omnipresent in smartphones, tablets, IoT devices, and smart appliances because they are compact in size, high-performance, energy efficient, and economical. But they are difficult to design, and they can suffer from issues such as heat dissipation and lack of flexibility.
 
-There are three principal categories of SoCs:
+## There are three principal categories of SoCs:
 
 Microcontroller-based SoCs – applied to straightforward control applications and low-power devices.
 
@@ -12,7 +13,7 @@ Microprocessor-based SoCs – targeted to multitasking as well as the execution 
 
 Application-Specific SoCs – constructed for high-end specialized applications like AI, graphics, or networking.
 
-VSDBabySoC incorporates three significant open-source IP cores:
+## VSDBabySoC incorporates three significant open-source IP cores:
 
 RVMYTH (RISC-V Processor): Serves as the processing core, executing data and instructions. It utilizes register r17 as a holding area for values for the DAC.
 
@@ -24,7 +25,7 @@ In practice, BabySoC commences operation by the PLL producing a synchronized clo
 
 The PLL itself operates by synchronizing the phase and frequency of its output signal to a reference input signal. It consists of three essential components — a Phase Detector, Loop Filter, and Voltage-Controlled Oscillator (VCO). Utilizing on-chip PLLs prevents clock delays, jitter, and frequency mismatches that occur when utilizing external clock sources.
 
-The DAC also converts digital binary values to continuous analog voltages. Two popular ones are:
+## The DAC also converts digital binary values to continuous analog voltages. Two popular ones are:
 
 Weighted Resistor DAC
 
