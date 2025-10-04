@@ -116,7 +116,7 @@ gtkwave dump.vcd
 ```
 
 ✅ GLS waveforms line up with RTL — functional equivalence achieved!
-![Yosys_simulation](assets/post_synth.png)
+![Yosys_simulation](assets/post_synth_sim.png)
 
 ## 📊 Key Outcomes
 
