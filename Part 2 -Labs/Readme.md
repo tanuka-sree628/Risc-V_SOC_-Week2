@@ -41,7 +41,7 @@ These components form a minimal SoC that can be simulated, synthesized, and veri
 pip3 install pyyaml click sandpiper-saas
 sandpiper-saas -i ./src/module/*.tlv -o rvmyth.v --bestsv --noline -p verilog --outdir ./src/module/
 ```
-##⚙️ Flow Walkthrough
+## ⚙️ Flow Walkthrough
 
 ## 1️⃣ Pre-Synthesis RTL Simulation
 ```bash
