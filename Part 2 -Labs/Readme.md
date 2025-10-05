@@ -52,7 +52,7 @@ gtkwave pre_synth_sim.vcd
 ```
 
 ✅ Confirms DAC writes and PLL locking at RTL level.
-![Presynthesis_simulation](assets/pre_synth.png)
+![Presynthesis_simulation](assets/pre_synth.jpg)
 
 ## 2️⃣ Synthesis with Yosys
 
@@ -116,7 +116,7 @@ gtkwave dump.vcd
 ```
 
 ✅ GLS waveforms line up with RTL — functional equivalence achieved!
-![Yosys_simulation](assets/post_synth_sim.png)
+![Yosys_simulation](assets/post_synth_sim.jpg)
 
 ## 📊 Key Outcomes
 
